@@ -17,9 +17,11 @@
     height: 500px;
     margin: 0px 10px 0px;
   }
+
   .h{
     flex-wrap: wrap;
   }
+
   .hh{
     display: flex;
     justify-content: space-around;
@@ -46,6 +48,7 @@
   height: 500px;
   margin: 100px 0px 100px 100px;
 }
+
 .h{
   flex-wrap: wrap;
   
@@ -70,7 +73,8 @@
 /*end about section*/
 
 /*start tab projects*/
-<style>
+
+
   body {
     background: #fff;
   }
@@ -132,7 +136,6 @@
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
     -o-font-smoothing: antialiased;
-    font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
   }
   
