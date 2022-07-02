@@ -18,6 +18,11 @@
     margin: 0px 10px 0px;
   }
 
+  .btn:hover{
+  background-color:rgb(255, 183, 0);
+  color:rgb(255, 255, 255);
+  }
+
   .h{
     flex-wrap: wrap;
   }
@@ -78,6 +83,7 @@
   body {
     background: #fff;
   }
+
   .mytabs {
     display: flex;
     flex-wrap: wrap;
