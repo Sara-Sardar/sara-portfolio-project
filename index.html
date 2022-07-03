@@ -40,8 +40,8 @@
 
     <!--start navbar-->
     <section class="header " id="header">
-      <nav class="navbar  navbar-expand-md bg-white  fixed-top"> 
-        <div class="container-fluid ">
+      <nav class="navbar  navbar-expand-md bg-white fixed-top "> 
+        <div class="container-fluid  mx-5 ">
           <a class="navbar-brand text-warning fw-semibold fs-3" href="#header"
             >PORTFOLIO</a>
           
@@ -94,65 +94,92 @@
 
 
 <!-------------- start hero section------------->
-
-    <section class="hero" id="hero">
-        <div class="h">
-          <ul class="hh "> 
-             <li>
-                    <h1 class="name fw-semibold lh-1 mb-3 ">Sara Sardar Hassan</h1>
-        
-                    <p class="paragraph" style="color:#1B2836 ;">
-                         Front-End Devloper <br>
-                         UX/UI Designer<br>
-                         Software Engineer<br><br>
-                    </p>
-        
-                
-                        <a  class="btn btn-warning btn-lg px-4 me-md-2" href="https://github.com/Sara-Sardar" ><i class="bi bi-github fs-4 "></i></a>
-                        <a  class="btn btn-outline-warning text-dark btn-lg px-4 " href="https://www.behance.net/sarasardar1"><i class="bi bi-behance fs-4 "></i></a>
-             </li>
-                
-                    
-            <li>
-                    <img class="img" src="./9.png"   />
-            </li>
-         </ul>
-        
-        </div>
-    </section>
+   <section class="hero px-4 pt-4 " id="hero"></section>
+   <div
+     class="container col-xxl-12 px-4 py-lg-5 border-2 "
+     style="height: 500px; padding: auto; margin: 70px"
+     ;
+   >
+     <div
+       class="row flex-lg-row-reverse align-items-center g-5 pb-lg-5 rounded-3"
+       style="height: 500px; margin-bottom : 70px; background-color: rgba(253, 196, 53, 0.4)"
+       ;
+     >
+       <div class="col-10 col-sm-8 col-lg-6 mb-lg-4">
+         <img
+           src="./9.png"
+           class="d-block mx-lg-auto img-fluid"
+           alt="Bootstrap Themes"
+           width="400"
+           height="100"
+           loading="lazy"
+         />
+       </div>
+       <div class="col-md-5">
+         <h1 class="display-5 fw-bold lh-1 mb-3">Sara Sardar Hassan</h1>
+         <p class="lead">Front-End Developer</p>
+         <p class="lead">UX/UI Designer</p>
+         <p class="lead">Software Engineer</p>
+         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+           <a
+             class="btn btn-warning btn-lg px-4 me-md-2"
+             href="https://github.com/Sara-Sardar"
+             ><i class="bi bi-github fs-4"></i
+           ></a>
+           <a
+             class="btn btn-outline-warning text-dark btn-lg px-4"
+             href="https://www.behance.net/sarasardar1"
+             ><i class="bi bi-behance fs-4"></i
+           ></a>
+         </div>
+       </div>
+     </div>
+   </div>
+</section>
 <!--------------- end hero section------------------->
+
+
 
 
 <!-------------- start about section----------------->
 
-<section class="about" id="about">
-  <div class="h px-4 py-5 ">
-    <ul class="hh "> 
-       <li>
-              <h1 class="name fw-semibold lh-1 mb-3">About me</h1>
-  
-              <p class="paragraph" style="color:#1B2836 ;">
-                  I'm a Front-End Devloper i have very good skills in
-                  (HTML,CSS,JS,JSON,NodeJS,Bootstrap,Git,Github),</br>Also i'm a good UX/UI Designer i have
-                  skills in(Figma,Canvas,Adope XD).
-              </p>
-  
-      
-               <!-- <a href="#project"><button type="button" class="btn btn-warning btn-lg px-4 me-md-2">Projects</button></a>-->
-                <a href="./cv.png"><button type="button" class="btn btn-outline-warning text-dark btn-lg px-4 ">CV</button></a>
-         
-                  
-       </li>
-          
-              
-      <li>
-              <img class="imgg" src="./14.png"   />
-      </li>
-   </ul>
-  
-  </div>
-</section>
-<!-- end about section-->
+   <section class="about px-4 pt-5" id="about">
+       <div class="container px-4  col-xxl-12  border-2 mt-lg-5"
+     style="height: 500px; padding: auto; margin: auto"
+     ;
+   >
+     <div
+       class="row flex-lg-row-reverse align-items-center g-5 py-0 rounded-3"
+       style="height: 500px; background-color: rgba(253, 196, 53, 0.4)"
+       ;
+     >
+       <div class="col-10 col-sm-8 col-lg-6 mb-lg-4">
+         <img
+           src="./14.png"
+           class="d-block mx-lg-auto img-fluid"
+           alt="Bootstrap Themes"
+           width="400"
+           height="100"
+           loading="lazy"
+         />
+       </div>
+       <div class="col-md-5">
+         <h1 class="display-5 fw-bold lh-1 mb-3">About me</h1>
+        <P> I'm a Front-End Devloper i have very good skills in
+                 (HTML,CSS,JS,JSON,NodeJS,Bootstrap,Git,Github),</br>Also i'm a good UX/UI Designer i have
+                 skills in(Figma,Canvas,Adope XD).</P>
+
+         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+           <a
+             class="btn btn-outline-warning text-dark btn-lg px-4"
+             href="https://www.behance.net/sarasardar1"
+             >CV</a>
+         </div>
+       </div>
+     </div>
+   </div>
+   </section>
+<!---------------------- end about section---------------------->
 
 
 
@@ -187,7 +214,7 @@
                     class="card card-cover h-100 overflow-hidden text-white bg-warning rounded-4 shadow-lg"
                   >
                     <a
-                      class="p-5 display-6 fw-normal text-white bg-warning"
+                      class="p-5 display-6 fw-normal text-white bg-warning "
                       style="text-decoration: none"
                       href="./project1/tictactoi.html"
                       target="_blank"

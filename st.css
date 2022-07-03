@@ -1,92 +1,23 @@
-/*start header section*/
+
+ body {
+  background: #fff;
+}
+
+
+
+/*********start header section*********/
  .nav-item:hover{
     border-radius:3px;
     background-color:rgba(253, 196, 53,0.4);
     color:rgba(44, 120, 62, 1);
     font-weight:700px;
   }
-  /*end header section*/
+  /*********end header section*********/
   
   
-  /*start hero section*/
-.hero{
-  display: flex;
-   flex-wrap: wrap;
-    background-color: rgba(253, 196, 53,0.3);
-    border-radius: 10px;
-    width: 1500px;
-    height: 500px;
-    margin: 100px 10px 0px;
-  }
-
-  .btn:hover{
-  background-color:rgb(255, 183, 0);
-  color:rgb(255, 255, 255);
-  }
-
-  .h{
-   
-    flex-wrap: wrap;
-    padding-top: 0px;
-  }
-
-  .hh{
-    
-    justify-content: space-around;
-    align-items: center;
-    width: 1400px;
-    height: 550px;
-    list-style-type: none;
-  }
-
- .img {
-    width: auto;
-    height: 400px;
-   margin-right: -70px;
- }
- /*end hero section*/
-
-
- /*start about section*/
- .about{
-    
-  background-color: rgba(253, 196, 53,0.2);
-  border-radius: 10px;
-  width: 1300px;
-  height: 500px;
-  margin: 100px 0px 100px 100px;
-}
-
-.h{
-  flex-wrap: wrap;
-  
-}
-.hh{
-  
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 1400px;
-  height: 550px;
-  list-style-type: none;
-}
-
-.imgg {
  
-  width: 300px;
-  height: 300px;
- margin-right: 90px;
- border-radius: 300px;
-}
-/*end about section*/
 
-/*start tab projects*/
-
-
-  body {
-    background: #fff;
-  }
-
+/*********start tab projects*********/
   .mytabs {
     display: flex;
     flex-wrap: wrap;
@@ -118,11 +49,11 @@
   }
 
 
-/*end tab projects*/
+/*********end tab projects*********/
 
 
 
- /*start project section*/
+ /*********start project section*********/
  .nav{
     justify-content: center;
  }
@@ -130,11 +61,11 @@
  .part{
     margin-top: 60px;
  }
-/*end project section*/
+/*********end project section*********/
 
 
 
-  /*start contact(form) section */
+  /*********start contact(form) section *********/
   @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
   * {
     margin: 0;
@@ -148,13 +79,6 @@
     text-rendering: optimizeLegibility;
   }
   
-  /*to put para & button in center
- /*.contact-para{
-  margin: 0px 550px 0px;
-  width: 500px;
-  height: auto;
-  text-align: center;
- }*/
   
   .custom-container {
     
@@ -285,15 +209,15 @@
   }
 
   
-  /*end contact(form) section */
+  /*********end contact(form) section *********/
 
-  /*star footer section */
+  /*********star footer section *********/
   .containerr{
     display:flex;
     flex-wrap:wrap; 
     justify-content:flex-start ;
     align-items:center;
   }
-  /*end footer section */
+  /*********end footer section *********/
 
 
