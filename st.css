@@ -10,12 +10,13 @@
   
   /*start hero section*/
 .hero{
-    
+  display: flex;
+   flex-wrap: wrap;
     background-color: rgba(253, 196, 53,0.3);
     border-radius: 10px;
     width: 1500px;
     height: 500px;
-    margin: 0px 10px 0px;
+    margin: 100px 10px 0px;
   }
 
   .btn:hover{
@@ -24,11 +25,13 @@
   }
 
   .h{
+   
     flex-wrap: wrap;
+    padding-top: 0px;
   }
 
   .hh{
-    display: flex;
+    
     justify-content: space-around;
     align-items: center;
     width: 1400px;
@@ -111,7 +114,7 @@
   }
 
   .mytabs input[type="radio"]:checked + label {
-    background: #fff;
+    background: rgba(253, 196, 53,0.2);
   }
 
 
